@@ -1,0 +1,26 @@
+# Core ML & DL Frameworks
+torch==2.3.0
+transformers==4.42.1
+datasets
+accelerate==0.31.0
+trl==0.9.4
+
+# PyTorch Ecosystem
+torchtext==0.17.2
+torchdata==0.7.1
+torchmetrics==1.4.0.post0
+
+# Data Handling & Scientific Computing
+pandas
+numpy==1.26.0
+scikit-learn==1.5.0
+sympy
+
+# Visualization
+matplotlib==3.9.0
+seaborn
+
+# Utilities
+tqdm
+portalocker
+protobuf~=3.20.0
