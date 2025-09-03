@@ -87,8 +87,8 @@ First, clone the repository to your local machine and install the required depen
 
 # 1. Clone the repository
 ```bash
-git clone [https://github.com/your-username/Generative-AI-Engineering-and-Fine-Tuning-Transformers.git](https://github.com/your-username/Generative-AI-Engineering-and-Fine-Tuning-Transformers.git)
-cd Generative-AI-Engineering-and-Fine-Tuning-Transformers
+git clone https://github.com/nabeelshan78/Transformer-Adaptation-Playbook.git
+cd Transformer-Adaptation-Playbook
 ```
 
 # 2. Install the required packages
