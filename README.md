@@ -22,7 +22,10 @@ This project's core contribution is an empirical comparison of various fine-tuni
 
 Our experiments show that PEFT techniques, specifically **Adapters**, can achieve performance parity with full fine-tuning, which retrains every parameter in the model. This is a critical finding for deploying models efficiently.
 
-![Fine-Tuning Performance Comparison](plots/performance_comparison_imdb.png)
+<p align="center">
+  <img src="plots/performance_comparison_imdb.png" alt="Fine-Tuning Performance Comparison" width=1000, height=500/>
+</p>
+
 *<p align="center"><b>Figure 1:</b> Both Full Fine-Tuning and PEFT (Adapters) achieve top-tier accuracy (~86%). This demonstrates that we can attain SOTA performance without the immense cost of full retraining.</p>*
 
 ---
@@ -31,7 +34,10 @@ Our experiments show that PEFT techniques, specifically **Adapters**, can achiev
 
 The motivation for PEFT is vividly illustrated by comparing the number of trainable parameters. Our from-scratch implementation of **LoRA** required updating dramatically fewer weights than a traditional full-layer update.
 
-![Parameter Efficiency Comparison](plots/parameter_efficiency_comparison.png)
+<p align="center">
+  <img src="plots/parameter_efficiency_comparison.png" alt="Parameter Efficiency Comparison" width=1000, height=500/>
+</p>
+
 *<p align="center"><b>Figure 2:</b> LoRA achieved its results by training only **456 parameters** in the target layer—a **96.4% reduction** compared to the 12,800 parameters of a standard dense layer.</p>*
 
 ---
