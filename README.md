@@ -40,6 +40,16 @@ The motivation for PEFT is vividly illustrated by comparing the number of traina
 
 *<p align="center"><b>Figure 2:</b> LoRA achieved its results by training only **456 parameters** in the target layer—a **96.4% reduction** compared to the 12,800 parameters of a standard dense layer.</p>*
 
+The following table provides a comprehensive, at-a-glance view of the performance and parameter efficiency of each fine-tuning method evaluated in our study.
+
+| Fine-Tuning Method | Test Accuracy (%) | Trainable Parameters |
+| :--- | :---: | :---: |
+| Full Fine-Tuning | 86.0% | ~1,280,000 |
+| PEFT with Adapters | 85.6% | ~100,000 |
+| PEFT with LoRA | 69.2% | 456 |
+| Train from Scratch | 83.0% | ~1,280,000 |
+| Linear Probing | 64.0% | ~1,000 |
+
 ---
 
 ## 🔬 Methodology & Scope
